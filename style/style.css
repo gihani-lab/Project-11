@@ -1,12 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 1110px;
+  font-size: 14px;
+  margin: auto;
+}
+.navbar__image {
+  margin-right: auto;
+}
+
+.navbar__navlist {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.navbar__navlist li a {
+  color: #2f281e;
+  font-style: normal;
+  text-decoration: none;
+  font-style: normal;
+}
 .grid-container {
   width: 1110px;
   height: 1960px;
-
   margin: auto;
   grid-template-rows: repeat(32, 1fr);
   grid-template-columns: repeat(9, 1fr);
-
   display: grid;
+  grid-gap: 30px;
 }
 .grid-item-1 {
   grid-column: 1/4;
