@@ -5,24 +5,22 @@
   display: flex;
   flex-direction: column;
   font-family: "Mulish", sans-serif;
+  align-items: center;
 }
 
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 1110px;
   font-size: 14px;
-  margin-left: 125px;
 }
 .navbar__image {
-  margin-top: 61px;
+  flex-grow: 1;
 }
 .navbar__navlist {
   display: flex;
   list-style: none;
   gap: 50px;
-  margin-top: 61px;
 }
 
 .navbar__navlist li a {
@@ -31,19 +29,19 @@
   text-decoration: none;
   font-style: normal;
 }
-.introduction-section {
-  margin-left: 125px;
-  margin-top: 96px;
+
+.container-logo-name {
   display: flex;
+  width: 1110px;
   flex-direction: column;
-  gap: 30px;
-  width: 635px;
-  height: 251px;
+  margin-top: 96px;
 }
-.intro {
-  display: flex;
-  font-family: "Mulish";
-  font-style: normal;
+.logo {
+  width: 173px;
+  height: 28px;
+  left: 0%;
+  right: 72.76%;
+  top: calc(50% - 28px / 2 - 111.5px);
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
@@ -52,14 +50,16 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .name {
-  display: flex;
+  margin-top: 32px;
   font-weight: 700;
   font-size: 40px;
+  line-height: 60px;
+  width: 635px;
+  height: 195px;
 }
 .grid-container {
   width: 1110px;
   height: 1960px;
-  margin-left: 125px;
   margin-top: 144px;
   grid-template-rows: repeat(32, 1fr);
   grid-template-columns: repeat(9, 1fr);
@@ -116,15 +116,15 @@
 }
 .service-list {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 1079px;
   height: 106px;
-  margin-left: 125px;
   margin-top: 91px;
 }
 .service-list-intro {
+  font-weight: 700;
   font-size: 28px;
+  line-height: 38px;
+  flex-grow: 1;
 }
 .list-one {
   list-style: none;
@@ -133,4 +133,33 @@
 .list-two {
   list-style: none;
   font-size: 18px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  width: 1110px;
+  font-size: 14px;
+  margin-top: 132px;
+}
+.footer__image {
+  flex-grow: 1;
+}
+
+.footer__footlist {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  flex-grow: 0;
+}
+.footer__pnglist {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.footer__footlist li a {
+  color: #2f281e;
+  font-style: normal;
+  text-decoration: none;
+  font-style: normal;
 }
