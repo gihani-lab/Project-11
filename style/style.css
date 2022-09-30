@@ -30,7 +30,7 @@
   font-style: normal;
 }
 
-.container-logo-name {
+.container-title {
   display: flex;
   width: 1110px;
   flex-direction: column;
@@ -57,7 +57,7 @@
   width: 635px;
   height: 195px;
 }
-.grid-container {
+.container-grid {
   width: 1110px;
   height: 1960px;
   margin-top: 144px;
@@ -114,25 +114,35 @@
   grid-column: 7/9;
   grid-row: 27/32;
 }
-.service-list {
+.container-services {
   display: flex;
-  width: 1079px;
   height: 106px;
-  margin-top: 91px;
+  width: 1110px;
+  margin-top: 90px;
 }
-.service-list-intro {
+.services-intro {
   font-weight: 700;
+  width: 600px;
   font-size: 28px;
   line-height: 38px;
-  flex-grow: 1;
+}
+.service-lists {
+  display: flex;
+  width: 510px;
+  justify-content: flex-end;
+  gap: 50px;
 }
 .list-one {
+  display: flex;
   list-style: none;
   font-size: 18px;
+  flex-direction: column;
 }
 .list-two {
+  display: flex;
   list-style: none;
   font-size: 18px;
+  flex-direction: column;
 }
 .footer {
   display: flex;
