@@ -1,0 +1,63 @@
+@use "layout";
+main {
+  width: 1110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  .contact-details {
+    width: inherit;
+    display: flex;
+    gap: 190px;
+    &__description {
+      display: flex;
+      flex-direction: column;
+    }
+    &__title {
+      width: 430px;
+      height: 174px;
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 55px;
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }
+    &__content {
+      width: 385px;
+      height: 45px;
+      font-family: "Mulish";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #111111;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
+    &__form {
+      width: 475px;
+      height: 291px;
+      left: 760px;
+      top: 215px;
+      display: flex;
+      flex-direction: column;
+      gap: 46px;
+      input {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #d8d8d8;
+        width: 475px;
+        height: 37px;
+        display: flex;
+      }
+      button {
+        width: 125px;
+        height: 50px;
+        background: #4a4ff2;
+        border: none;
+      }
+    }
+  }
+}

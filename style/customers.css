@@ -90,3 +90,89 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+main {
+  width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 100px;
+}
+main .contact-details {
+  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 190px;
+}
+main .contact-details__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+main .contact-details__title {
+  width: 430px;
+  height: 174px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+main .contact-details__content {
+  width: 385px;
+  height: 45px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+main .contact-details__form {
+  width: 475px;
+  height: 291px;
+  left: 760px;
+  top: 215px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 46px;
+}
+main .contact-details__form input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #d8d8d8;
+  width: 475px;
+  height: 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+main .contact-details__form button {
+  width: 125px;
+  height: 50px;
+  background: #4a4ff2;
+  border: none;
+}
